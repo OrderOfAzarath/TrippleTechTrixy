@@ -1,0 +1,808 @@
+
+	<tech name="Husbandry2" type="Normal">
+		<dbid>79</dbid>
+		<displaynameid>11150</displaynameid>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Gold">50.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement husbandry icon</icon>
+		<rollovertextid>10736</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Archaic Age</specificage>
+			<culture>
+				<culturename>Greek</culturename>
+				<culturename>Norse</culturename>
+				<culturename>Egyptian</culturename>
+				<culturename>Atlantean</culturename>
+				<culturename>Chinese</culturename>
+			</culture>
+			<techstatus status="Active">Husbandry</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11268</effect>
+			<effect type="Data" amount="2.00" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="AutoGather" amount="1.30" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<target type="ProtoUnit">Herdable</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Husbandry3" type="Normal">
+		<dbid>79</dbid>
+		<displaynameid>11150</displaynameid>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Gold">50.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement husbandry icon</icon>
+		<rollovertextid>10736</rollovertextid>
+		<buttonpos row="1" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Archaic Age</specificage>
+			<culture>
+				<culturename>Greek</culturename>
+				<culturename>Norse</culturename>
+				<culturename>Egyptian</culturename>
+				<culturename>Atlantean</culturename>
+				<culturename>Chinese</culturename>
+			</culture>
+			<techstatus status="Active">Husbandry2</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11268</effect>
+			<effect type="Data" amount="2.00" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="AutoGather" amount="1.30" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+				<target type="ProtoUnit">Herdable</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Plow2" type="Normal">
+		<dbid>80</dbid>
+		<displaynameid>11189</displaynameid>
+		<cost resourcetype="Wood">50.0000</cost>
+		<cost resourcetype="Gold">100.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement plow icon</icon>
+		<rollovertextid>10764</rollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Archaic Age</specificage>
+			<culture>
+				<culturename>Greek</culturename>
+				<culturename>Norse</culturename>
+				<culturename>Egyptian</culturename>
+				<culturename>Atlantean</culturename>
+				<culturename>Chinese</culturename>
+			</culture>
+			<techstatus status="Active">Plow</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11269</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.12" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Plow3" type="Normal">
+		<dbid>80</dbid>
+		<displaynameid>11189</displaynameid>
+		<cost resourcetype="Wood">50.0000</cost>
+		<cost resourcetype="Gold">100.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement plow icon</icon>
+		<rollovertextid>10764</rollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Archaic Age</specificage>
+			<culture>
+				<culturename>Greek</culturename>
+				<culturename>Norse</culturename>
+				<culturename>Egyptian</culturename>
+				<culturename>Atlantean</culturename>
+				<culturename>Chinese</culturename>
+			</culture>
+			<techstatus status="Active">Plow2</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11269</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.12" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	//PREREQS MISSING FROM HERE ON
+	
+	<tech name="Irrigation2" type="Normal">
+		<dbid>81</dbid>
+		<displaynameid>11156</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Gold">250.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement irrigation icon</icon>
+		<rollovertextid>10742</rollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Irrigation</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11270</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Irrigation3" type="Normal">
+		<dbid>81</dbid>
+		<displaynameid>11156</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Gold">250.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement irrigation icon</icon>
+		<rollovertextid>10742</rollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Plow</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11270</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	<tech name="Flood Control2" type="Normal">
+		<dbid>418</dbid>
+		<displaynameid>11116</displaynameid>
+		<cost resourcetype="Wood">250.0000</cost>
+		<cost resourcetype="Gold">350.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement flood control icon</icon>
+		<rollovertextid>10714</rollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Irrigation</techstatus>
+			<specificage>Mythic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11488</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Flood Control3" type="Normal">
+		<dbid>418</dbid>
+		<displaynameid>11116</displaynameid>
+		<cost resourcetype="Wood">250.0000</cost>
+		<cost resourcetype="Gold">350.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement flood control icon</icon>
+		<rollovertextid>10714</rollovertextid>
+		<buttonpos row="1" column="2"></buttonpos>
+		<prereqs>
+			<techstatus status="Active">Irrigation</techstatus>
+			<specificage>Mythic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11488</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	<tech name="Purse Seine2" type="Normal">
+		<dbid>551</dbid>
+		<displaynameid>17851</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Gold">150.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Purse Seine Icon</icon>
+		<rollovertextid>17853</rollovertextid>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">17852</effect>
+			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Fish" relativity="BasePercent">
+				<target type="ProtoUnit">UtilityShip</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Purse Seine3" type="Normal">
+		<dbid>551</dbid>
+		<displaynameid>17851</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Gold">150.0000</cost>
+		<researchpoints>20.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Purse Seine Icon</icon>
+		<rollovertextid>17853</rollovertextid>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">17852</effect>
+			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Fish" relativity="BasePercent">
+				<target type="ProtoUnit">UtilityShip</target>
+			</effect>
+		</effects>
+	</tech>	
+	<tech name="Salt Amphora2" type="Normal">
+		<dbid>650</dbid>
+		<displaynameid>18750</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Gold">250.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Salt Amphora icon</icon>
+		<rollovertextid>18751</rollovertextid>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Purse Seine</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="2.00" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
+				<target type="ProtoUnit">UtilityShip</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="Fish" relativity="BasePercent">
+				<target type="ProtoUnit">UtilityShip</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Salt Amphora3" type="Normal">
+		<dbid>650</dbid>
+		<displaynameid>18750</displaynameid>
+		<cost resourcetype="Wood">150.0000</cost>
+		<cost resourcetype="Gold">250.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>Improvement Salt Amphora icon</icon>
+		<rollovertextid>18751</rollovertextid>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Purse Seine</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">-1</effect>
+			<effect type="Data" amount="2.00" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
+				<target type="ProtoUnit">UtilityShip</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.40" subtype="WorkRate" unittype="Fish" relativity="BasePercent">
+				<target type="ProtoUnit">UtilityShip</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	<tech name="Hand Axe2" type="Normal">
+		<dbid>108</dbid>
+		<displaynameid>11130</displaynameid>
+		<cost resourcetype="Food">120.0000</cost>
+		<cost resourcetype="Gold">50.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement hand axe icon</icon>
+		<rollovertextid>10727</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<effects>
+			<effect type="TextOutput">11261</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Hand Axe3" type="Normal">
+		<dbid>108</dbid>
+		<displaynameid>11130</displaynameid>
+		<cost resourcetype="Food">120.0000</cost>
+		<cost resourcetype="Gold">50.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement hand axe icon</icon>
+		<rollovertextid>10727</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<effects>
+			<effect type="TextOutput">11261</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Bow Saw2" type="Normal">
+		<dbid>110</dbid>
+		<displaynameid>11070</displaynameid>
+		<cost resourcetype="Food">250.0000</cost>
+		<cost resourcetype="Gold">150.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement bow saw icon</icon>
+		<rollovertextid>10670</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Hand Axe</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11262</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Bow Saw3" type="Normal">
+		<dbid>110</dbid>
+		<displaynameid>11070</displaynameid>
+		<cost resourcetype="Food">250.0000</cost>
+		<cost resourcetype="Gold">150.0000</cost>
+		<researchpoints>45.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement bow saw icon</icon>
+		<rollovertextid>10670</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Hand Axe</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11262</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Carpenters2" type="Normal">
+		<dbid>112</dbid>
+		<displaynameid>11080</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>55.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement carpenters icon</icon>
+		<rollovertextid>10679</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Bow Saw</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11263</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Carpenters3" type="Normal">
+		<dbid>112</dbid>
+		<displaynameid>11080</displaynameid>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>55.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement carpenters icon</icon>
+		<rollovertextid>10679</rollovertextid>
+		<buttonpos row="0" column="0"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Bow Saw</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11263</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Wood" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gaia Forest tree" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	<tech name="Pickaxe2" type="Normal">
+		<dbid>107</dbid>
+		<displaynameid>11187</displaynameid>
+		<cost resourcetype="Food">50.0000</cost>
+		<cost resourcetype="Wood">120.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement pickaxe icon</icon>
+		<rollovertextid>10762</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<effects>
+			<effect type="TextOutput">11264</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Dwarven" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Small" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Pickaxe3" type="Normal">
+		<dbid>107</dbid>
+		<displaynameid>11187</displaynameid>
+		<cost resourcetype="Food">50.0000</cost>
+		<cost resourcetype="Wood">120.0000</cost>
+		<researchpoints>30.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement pickaxe icon</icon>
+		<rollovertextid>10762</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<effects>
+			<effect type="TextOutput">11264</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Dwarven" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Small" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	
+	<tech name="Shaft Mine2" type="Normal">
+		<dbid>109</dbid>
+		<displaynameid>11202</displaynameid>
+		<cost resourcetype="Food">150.0000</cost>
+		<cost resourcetype="Wood">250.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement shaft mine icon</icon>
+		<rollovertextid>10792</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Pickaxe</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11265</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Small" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Dwarven" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Shaft Mine3" type="Normal">
+		<dbid>109</dbid>
+		<displaynameid>11202</displaynameid>
+		<cost resourcetype="Food">150.0000</cost>
+		<cost resourcetype="Wood">250.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement shaft mine icon</icon>
+		<rollovertextid>10792</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Classical Age</specificage>
+			<techstatus status="Active">Pickaxe</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11265</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Small" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Dwarven" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Quarry2" type="Normal">
+		<dbid>111</dbid>
+		<displaynameid>11191</displaynameid>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Wood">300.0000</cost>
+		<researchpoints>50.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement quarry icon</icon>
+		<rollovertextid>10766</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Shaft Mine</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11266</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Dwarven" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Small" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Quarry3" type="Normal">
+		<dbid>111</dbid>
+		<displaynameid>11191</displaynameid>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Wood">300.0000</cost>
+		<researchpoints>50.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement quarry icon</icon>
+		<rollovertextid>10766</rollovertextid>
+		<buttonpos row="0" column="1"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+			<techstatus status="Active">Shaft Mine</techstatus>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11266</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Dwarven" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="Gold Mine Small" relativity="BasePercent">
+				<target type="ProtoUnit">Dwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+				<target type="ProtoUnit">Villager Egyptian</target>
+			</effect>
+		</effects>
+	</tech>	
+	
+	<tech name="Tax Collectors2" type="Normal">
+		<dbid>92</dbid>
+		<displaynameid>11221</displaynameid>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement tax collectors icon</icon>
+		<rollovertextid>10805</rollovertextid>
+		<buttonpos row="0" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11276</effect>
+			<effect type="Data" amount="0.85" subtype="Market" component="BuyFactor" relativity="Percent">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.15" subtype="Market" component="SellFactor" relativity="Percent">
+				<target type="Player"></target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Tax Collectors3" type="Normal">
+		<dbid>92</dbid>
+		<displaynameid>11221</displaynameid>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>35.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement tax collectors icon</icon>
+		<rollovertextid>10805</rollovertextid>
+		<buttonpos row="0" column="2"></buttonpos>
+		<prereqs>
+			<specificage>Heroic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11276</effect>
+			<effect type="Data" amount="0.85" subtype="Market" component="BuyFactor" relativity="Percent">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.15" subtype="Market" component="SellFactor" relativity="Percent">
+				<target type="Player"></target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Coinage2" type="Normal">
+		<dbid>93</dbid>
+		<displaynameid>11090</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement coinage icon</icon>
+		<rollovertextid>10689</rollovertextid>
+		<buttonpos row="0" column="3"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11277</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Norse</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Greek</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Chinese</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="Coinage3" type="Normal">
+		<dbid>93</dbid>
+		<displaynameid>11090</displaynameid>
+		<cost resourcetype="Gold">200.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>OBTAINABLE</status>
+		<icon>improvement coinage icon</icon>
+		<rollovertextid>10689</rollovertextid>
+		<buttonpos row="0" column="3"></buttonpos>
+		<prereqs>
+			<specificage>Mythic Age</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TextOutput">11277</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Norse</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Greek</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Egyptian</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Atlantean</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Caravan Chinese</target>
+			</effect>
+		</effects>
+	</tech>
